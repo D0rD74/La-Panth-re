@@ -666,6 +666,10 @@ a {
     font-size: 36px;
 }
 
+#bloc-2-services p {
+    color:#FFFFFF!important;
+}
+
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;

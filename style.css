@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    opacity:0.6
 }
 
 .b-parallax {
@@ -150,7 +151,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #ffd0ba!important;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -249,7 +250,25 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: #ffd0ba!important;
+}
+
+.d-bloc .panel .a-btn:focus,
+.l-bloc .a-btn:focus,
+.l-bloc .navbar a:focus,
+.l-bloc .navbar-brand:focus,
+.l-bloc a:focus .icon-sm,
+.l-bloc a:focus .icon-md,
+.l-bloc a:focus .icon-lg,
+.l-bloc a:focus .icon-xl,
+.l-bloc h1 a:focus,
+.l-bloc h2 a:focus,
+.l-bloc h3 a:focus,
+.l-bloc h4 a:focus,
+.l-bloc h5 a:focus,
+.l-bloc h6 a:focus,
+.l-bloc p a:focus {
+    color: #d16533!important;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -269,7 +288,7 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 24px;
 }
 
 .row-no-gutters {
@@ -670,6 +689,42 @@ a {
     color:#FFFFFF!important;
 }
 
+#bloc-2-services h1 {
+    width:65%;
+    margin: 0 auto;
+}
+
+#bloc-2-services .cadre {
+    background-color: #FFFFFF;
+    text-align:center;
+    font-size:18px;
+    color:#333333;
+    padding:15px;
+}
+
+#bloc-2-services .cadre p{
+    font-size: inherit!important;
+    color:inherit!important;
+    font-style:italic;
+}
+
+#bloc-3-what-i-do h1 {
+    text-transform:none;
+}
+
+#bloc-8 h1 {
+    text-align:center;
+    color:white!important;
+}
+
+#bloc-8 a{
+    color:white!important
+}
+
+#bloc-8 a:hover {
+    color:rgb(250, 204, 174)!important
+}
+
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
@@ -681,7 +736,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -690,7 +745,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 20px!important;
     font-family: "Open Sans";
 }
 
@@ -709,14 +764,15 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 15px;
+    text-transform: uppercase;
     line-height: 1.4em;
+    font-weight: 700;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 22px;
     text-transform: uppercase;
-    font-weight: 700;
     color: #333333!important;
 }
 
@@ -779,7 +835,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffd0ba!important;
 }
 
 .btn-atomic-tangerine {
@@ -809,8 +865,8 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #FFFFFF!important;
+    border-color: #FFFFFF!important;
 }
 
 .bg-dots-bg {
@@ -952,6 +1008,11 @@ h4 {
     #hero-bloc .navbar .nav a {
         color: rgba(255, 255, 255, .6);
     }
+
+    .nav a:hover {
+        color:#F3976C!important
+    }
+
     .hero {
         padding: 50px 0;
     }

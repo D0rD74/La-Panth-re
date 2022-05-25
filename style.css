@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
     opacity:0.6
 }
@@ -268,7 +268,7 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: #ffd0ba!important;
+    color: #94360A!important;
 }
 
 .d-bloc .panel .a-btn:focus,
@@ -286,7 +286,7 @@ a:hover {
 .l-bloc h5 a:focus,
 .l-bloc h6 a:focus,
 .l-bloc p a:focus {
-    color: #d16533!important;
+    color: #632204!important;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -688,7 +688,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -732,6 +732,10 @@ a {
 
 #bloc-8 h1 {
     text-align:center;
+    color:white!important;
+}
+
+#bloc-8 h2 {
     color:white!important;
 }
 
@@ -849,20 +853,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #933A10;
 }
 
 .tc-white {
-    color: #ffd0ba!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #94360A;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #692201!important;
     color: #FFFFFF!important;
 }
 
@@ -892,19 +896,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.png");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -935,7 +939,7 @@ h4 {
         background-attachment: scroll;
     }
 }
-
+ 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;

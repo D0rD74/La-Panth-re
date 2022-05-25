@@ -740,11 +740,16 @@ a {
 }
 
 #bloc-8 a{
-    color:white!important
+    color:white!important;   
 }
 
 #bloc-8 a:hover {
     color:rgb(250, 204, 174)!important
+}
+
+#bloc-8 li {
+
+    margin-bottom:10px;
 }
 
 .statement-bloc-text {
